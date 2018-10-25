@@ -3,7 +3,7 @@
  * @return {number}
  */
 var maxProduct = function (nums) {
-  let len = nums.length, first = nums[0]
+  let first = nums[0]
   let max = first, min = first
   nums.forEach((item, idx) => {
     if (idx === 0) {
