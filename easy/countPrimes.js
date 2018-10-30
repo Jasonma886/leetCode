@@ -47,5 +47,5 @@ console.timeEnd('countPrimes2')
 
 
 console.time('countPrimes')
-console.log(countPrimes(499999))
+console.log(countPrimes(4999999))
 console.timeEnd('countPrimes')
